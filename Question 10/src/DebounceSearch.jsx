@@ -10,7 +10,7 @@ const DebounceSearch = () => {
       let data = await fetch("https://dummyjson.com/users");
       let json = await data.json();
       setUsers(json.users);
-      setSearchedUsers(json.users); // Initialize search results with all users
+      setSearchedUsers(json.users); 
     };
     fetchUsers();
   }, []);
