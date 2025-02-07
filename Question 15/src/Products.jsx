@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Spinner from "./assets/Spinner.mp4"
+import Spinner from "./assets/Spinner.mp4";
 
 const Products = () => {
   let [products, setProducts] = useState([]);
@@ -18,10 +18,7 @@ const Products = () => {
     <div>
       {products.length === 0 ? (
         <video width="640" height="360" loop autoplay>
-          <source
-            src={Spinner}
-            type="video/mp4"
-          />
+          <source src={Spinner} type="video/mp4" />
         </video>
       ) : (
         products.map((item) => <h2>{item.title}</h2>)
