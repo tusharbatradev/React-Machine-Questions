@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.img {
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  height: 300px;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.meme-card {
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  height: 400px;
+  min-height: 400px;
+  max-height: 400px;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.meme-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.shimmer-card {
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  height: 400px;
+  min-height: 400px;
+  max-height: 400px;
+  background-color: #eae8e9;
+  border-radius: 12px;
+  padding: 12px;
+}
